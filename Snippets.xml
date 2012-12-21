@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>40378CFC-90EB-4498-B017-9E86CC2AE28D</UUID>
-        <nextObjectID>258</nextObjectID>
+        <nextObjectID>321</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -550,7 +550,7 @@ uint64_t delta_ns = (delta.tv_sec * NSEC_PER_SEC + delta.tv_usec * NSEC_PER_USEC
     </object>
     <object type="INDEXMANAGER" id="z127">
         <attribute name="synclabel" type="string">9D02B2A5-F0EC-4A94-A782-11B3C8C95B4F-82451-0001128FFDE5409E</attribute>
-        <attribute name="lastindex" type="int64">3</attribute>
+        <attribute name="lastindex" type="int64">35</attribute>
     </object>
     <object type="LICENSE" id="z128">
         <attribute name="label" type="string">gplv3</attribute>
@@ -588,7 +588,7 @@ uint64_t delta_ns = (delta.tv_sec * NSEC_PER_SEC + delta.tv_usec * NSEC_PER_USEC
         <attribute name="isexpanded" type="bool">1</attribute>
         <attribute name="index" type="int64">2</attribute>
         <relationship name="parent" type="1/1" destination="SIDEBARITEM"></relationship>
-        <relationship name="children" type="0/0" destination="SIDEBARITEM" idrefs="z145 z147 z144"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM" idrefs="z147 z144 z145"></relationship>
     </object>
     <object type="SIDEBARITEM" id="z135">
         <attribute name="synclabel" type="string">SASpacerSidebarItemLabel</attribute>
@@ -612,7 +612,7 @@ uint64_t delta_ns = (delta.tv_sec * NSEC_PER_SEC + delta.tv_usec * NSEC_PER_USEC
         <attribute name="isexpanded" type="bool">1</attribute>
         <attribute name="index" type="int64">1</attribute>
         <relationship name="parent" type="1/1" destination="SIDEBARITEM"></relationship>
-        <relationship name="children" type="0/0" destination="SIDEBARITEM" idrefs="z253 z254 z126"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM" idrefs="z126 z254 z253"></relationship>
     </object>
     <object type="SMARTGROUP" id="z138">
         <attribute name="predicate" type="string">dateRemoved != nil</attribute>
@@ -1196,7 +1196,7 @@ AUTHENTICATION_BACKENDS = (
         <attribute name="ishidden" type="bool">0</attribute>
         <attribute name="isdefault" type="bool">1</attribute>
         <attribute name="index" type="int64">2</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z252 z181 z168 z182 z232 z172 z257 z183 z180"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z277 z300 z296 z298 z182 z318 z292 z267 z232 z181 z281 z295 z183 z168 z252 z312 z172 z284 z180 z288 z309 z257"></relationship>
     </object>
     <object type="SYNTAXHIGHLIGHT" id="z188">
         <attribute name="synclabel" type="string">html</attribute>
@@ -1220,7 +1220,7 @@ AUTHENTICATION_BACKENDS = (
         <attribute name="ishidden" type="bool">1</attribute>
         <attribute name="isdefault" type="bool">0</attribute>
         <attribute name="index" type="int64">10</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z256"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z320 z311 z310 z263 z303 z287 z294 z290 z304 z283 z266 z308 z261 z260 z256 z314 z297 z305 z302"></relationship>
     </object>
     <object type="SYNTAXHIGHLIGHT" id="z191">
         <attribute name="synclabel" type="string">xml</attribute>
@@ -1228,7 +1228,7 @@ AUTHENTICATION_BACKENDS = (
         <attribute name="ishidden" type="bool">1</attribute>
         <attribute name="isdefault" type="bool">0</attribute>
         <attribute name="index" type="int64">9</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z259"></relationship>
     </object>
     <object type="SYNTAXHIGHLIGHT" id="z192">
         <attribute name="synclabel" type="string">javascript</attribute>
@@ -1722,5 +1722,1666 @@ github</attribute>
 IOS开发之——ASIHTTPRequest请求时\u0cff发送了2次请求问题解决 
  request.shouldAttemptPersistentConnection = NO;</attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z257"></relationship>
+    </object>
+    <object type="SNIPPET" id="z259">
+        <attribute name="synclabel" type="string">1B213CCB-7069-4789-B501-4CA86232E232-879-000001A34EE03B1E</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/note_encode_utf8_u.xml</attribute>
+        <attribute name="name" type="string">note_encode_utf8_u</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">note_encode_utf8_u.xml</attribute>
+        <attribute name="datemodified" type="date">377746348.39880400896072387695</attribute>
+        <attribute name="dateadded" type="date">377746348.39557701349258422852</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z307"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z191"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z260">
+        <attribute name="synclabel" type="string">B398B543-AD11-4FED-B0F1-BE35AE961AA7-879-000001A324CD9B6F</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/2012.5.21.txt</attribute>
+        <attribute name="name" type="string">2012.5.21</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">2012.5.21.txt</attribute>
+        <attribute name="datemodified" type="date">377746347.69145202636718750000</attribute>
+        <attribute name="dateadded" type="date">377746347.68968099355697631836</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z279"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z261">
+        <attribute name="synclabel" type="string">78049073-9F7C-4493-A219-64CC38D17265-879-000001A30B85D70F</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/%E7%BC%93%E5%AD%98.txt</attribute>
+        <attribute name="name" type="string">缓存</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">缓存.txt</attribute>
+        <attribute name="datemodified" type="date">377746347.26746100187301635742</attribute>
+        <attribute name="dateadded" type="date">377746347.26554501056671142578</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z269"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z262">
+        <attribute name="content" type="string">NSMutableString *xmlStr = [NSMutableString stringWithCapacity:100];
+[xmlStr appendString:@"\u3c00?xml version=\\"1.0\\"?\u3e00"];
+[xmlStr appendString:@"\u3c00UserModel\u3e00 "];
+[xmlStr appendString:@" \u3c00firstname\u3e00 Mario \u3c00/firstname\u3e00 "];
+[xmlStr appendString:@" \u3c00surname\u3e00 Rossi \u3c00/surname\u3e00 "];
+[xmlStr appendString:@" \u3c00ages\u3e00 54 \u3c00/ages\u3e00 "];
+[xmlStr appendString:@"\u3c00/UserModel\u3e00 "];
+NSLog(@"xmlStr: %@", xmlStr);
+
+
+CXMLElement *root = (CXMLElement *)[CXMLNode elementWithName:@"UserModel"];
+
+CXMLElement *firstNameElement = (CXMLElement *)[CXMLNode elementWithName:@"firstname"];
+[firstNameElement setStringValue:@"Mario"];
+[root addChild:firstNameElement];
+
+CXMLElement *surnameElement = (CXMLElement *)[CXMLNode elementWithName:@"surname"];
+[surnameElement setStringValue:@"Rossi"];
+[root addChild:surnameElement];
+
+CXMLElement *agesElement = (CXMLElement *)[CXMLNode elementWithName:@"ages"];
+[agesElement setStringValue:@"54"];
+[root addChild:agesElement];
+
+CXMLDocument *document = [CXMLDocument documentWithRootElement:root];
+NSLog(@"XMLDocument: %@", document);
+
+
+
+- (NSData *)constructXMLRequest
+{
+    NSXMLElement *root = [[NSXMLElement alloc] initWithName:@"Request"];
+    [root addAttribute:[NSXMLNode attributeWithName:@"Attribute1" stringValue:@"Value1"]];
+    [root addAttribute:[NSXMLNode attributeWithName:@"Attribute2" stringValue:@"Value2"]];
+    [root addAttribute:[NSXMLNode attributeWithName:@"Attribute3" stringValue:@"Value3"]];
+
+    NSXMLElement *childElement1 = [[NSXMLElement alloc] initWithName:@"ChildElement1"];
+    [root addChild:childElement1];
+    [childElement1 release];
+
+    NSXMLElement *childElement2 = [[NSXMLElement alloc] initWithName:@"ChildElement2"];
+    [childElement2 addAttribute:[NSXMLNode attributeWithName:@"ChildAttribute2.1" stringValue:@"Value2.1"]];
+    [childElement2 setStringValue:@"ChildValue2.1"];
+    [root addChild:childElement2];
+    [childElement2 release];
+
+    NSXMLDocument *xmlRequest = [NSXMLDocument documentWithRootElement:root];
+    [root release];
+    NSLog(@"XML Document\\n%@", xmlRequest);
+    return [xmlRequest XMLData];
+}
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z267"></relationship>
+    </object>
+    <object type="SNIPPET" id="z263">
+        <attribute name="synclabel" type="string">B9FF27A3-1592-4797-9BB2-58FEB60CB38C-879-000001A31E8494C0</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/6.1.txt</attribute>
+        <attribute name="name" type="string">6.1</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">6.1.txt</attribute>
+        <attribute name="datemodified" type="date">377746347.58607399463653564453</attribute>
+        <attribute name="dateadded" type="date">377746347.58423197269439697266</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z289"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z264">
+        <attribute name="content" type="string">struct AudioStreamBasicDescription
+{
+    Float64 mSampleRate;
+    UInt32  mFormatID;
+    UInt32  mFormatFlags;
+    UInt32  mBytesPerPacket;
+    UInt32  mFramesPerPacket;
+    UInt32  mBytesPerFrame;
+    UInt32  mChannelsPerFrame;
+    UInt32  mBitsPerChannel;
+    UInt32  mReserved;
+};</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z283"></relationship>
+    </object>
+    <object type="CODE" id="z265">
+        <attribute name="content" type="string">    NSMutableString *url = [[NSMutableString alloc] init];
+    [url appendString: [SessionMgr instance].headUrl]; //基址
+    
+    if(nCurHttpReqType == TP_HTTP_QUERY) {
+        [url appendFormat:@"/CustomerTag/?securitycode=%@\u2600customerNo=%@\u2600type=All",[SessionMgr instance].SecurityCode,myCustomerNo]; //分址
+    }
+    
+    NSString *utf8_URL = [url stringByAddingPercentEscapesUsingEncoding:CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000)];
+    [self beginHttpRequest:utf8_URL]; //http请求
+    [url release];
+    
+    if (ASIrequest!=nil) {
+        [ASIrequest release];
+        ASIrequest = nil;
+    }
+    
+    ASIrequest  = [[ASIHTTPRequest requestWithURL:[NSURL URLWithString:strUrl]] retain];
+    [ASIrequest setURL:[NSURL URLWithString:strUrl]];
+    
+    if (nCurHttpReqType == TP_HTTP_DELETE) {
+        [ASIrequest setRequestMethod:@"DELETE"];
+    }
+    else {
+        [ASIrequest setRequestMethod:@"GET"];
+    }
+    
+    [ASIrequest setDelegate:self];
+    [ASIrequest startAsynchronous];
+    
+    
+    
+    http://222.247.55.133:9913/Service.svc/DeleteCustomerTag/?securitycode=758986386A7C9EE82A73D2B8B740AC8A4B22FB24858D7AE8FD4AA1A540E0BB63FC443F14BA24D565376E4062289C67E0CAD0D429E22611CE47C72A4579F29C7F\u2600tagId=11</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z277"></relationship>
+    </object>
+    <object type="SNIPPET" id="z266">
+        <attribute name="synclabel" type="string">65FB8F99-A3F6-4EC3-972E-BE075C7C7629-879-000001A31836CBBE</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/5.25.txt</attribute>
+        <attribute name="name" type="string">5.25</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">5.25.txt</attribute>
+        <attribute name="datemodified" type="date">377746347.48033797740936279297</attribute>
+        <attribute name="dateadded" type="date">377746347.47846502065658569336</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z313"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z267">
+        <attribute name="synclabel" type="string">8BE240C9-0148-4443-93D3-9A4C0C4FFEA0-879-000001A3085E61CF</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/XML.m</attribute>
+        <attribute name="name" type="string">XML</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">XML.m</attribute>
+        <attribute name="datemodified" type="date">377746347.21420198678970336914</attribute>
+        <attribute name="dateadded" type="date">377746347.21262502670288085938</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z262"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z268">
+        <attribute name="content" type="string">//
+//  DBM.m
+//  F2F
+//
+//  Created by sherwin on 11-8-12.
+//  Copyright 2011年 __MyCompanyName__. All rights reserved.
+//
+#import "DBM.h"
+static int open_db_count=0;
+
+@implementation DBM
+// 调试日志
+-(void) debugLog:(const char *)info
+{
+    NSLog(@"%@",[NSString stringWithUTF8String:info]);
+}
+
+-(void) debugLog_s:(NSString *)info
+{
+    NSLog(@"%@",info);
+}
+
+//-----------------私用方法-----------------
+// 类相关数据初使化
+-(void) class_Data_Init
+{
+    data_base = nil;
+    statement = nil;
+    cardAtt   = nil;
+    genrAtt   = nil;
+    databasePath = nil;
+    isDBOpen = NO;
+}
+
+
+
+//关闭数据库
+-(BOOL) closeDatabase
+{
+    if ( data_base != nil)
+    {
+        open_db_count--;
+        [self debugLog_s:@"close database"];
+        return isDBOpen=sqlite3_close(data_base)? NO:YES;
+    }
+    return YES;
+}
+
+//-----------------end--------------------
+// 禁止用init方法
+- (id) init
+{
+    return nil;
+}
+
+
+
+
+@end
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z312"></relationship>
+    </object>
+    <object type="CODE" id="z269">
+        <attribute name="content" type="string">1.         关于被缓存的文件\u0cffURI里面会包含特殊字符\u0cff不能用于创建文件名\u0cff如http://blog.csdn.net/zhuqilin0/article/details/6653532。
+[Sean]: 是的\u0cff所以在处理的时候\u0cff需要把特殊字符过滤替换掉\u0cff具体的替换规则可以是\u1aff
+原字符
+替换字符
+://
+.
+/
+.
+?
+_
+ 
+2.      目前的设计是否所有的被缓存内容的过期时间都是一样的\u08ff如1天\u09ff\u0cff在实际应用中\u0cff更多的是不同模块/类型的数据过期时间不同\u0cff如MM_SM中‘商品详情’的数据实时性要求不高\u0cff过期时间为1天即可。而‘限时抢购’要求的数据实性较高\u0cff过期时间仅需啊哟1分钟。如何实现以上需求\u1fff
+[Sean]:具体的缓存策略\u0cff应该是由使用者来决定\u0cff提供了Download方法的一个参数ExpireInSeconds\u0cff调用的时候可以根据实际需要来指定。
+3.      缓存文件的属性\u08ff如过期时间\u0cff下载开始时间\u0cff下载完成时间\u09ff是否需要一个数据库文件保存\u1fff如果需要\u0cff能否补充这个数据文件的结构。
+[Sean]:缓存文件的属性文件\u0cff主文件名跟缓存文件名相同\u0cff缓存文件的扩展名是.body, 属性文件的扩展名是.head\u0cff结构定义如下\u1aff
+Key
+说明
+URL
+远程URL地址
+DownloadStartDate
+下载开始时间
+DownloadEndDate
+下载结束时间
+ExpiresInSeconds
+缓存时间\u0cff单位秒
+ExpiryDate
+到期时间
+ 
+示例\u1aff
+URL = "http://www.clochase.cn";
+DownloadStartDate = "2012-08-02 07:51:55 +0100"; 
+DownloadEndDate = "2012-08-02 07:51:57 +0100"; 
+ExpiresInSeconds = 20; 
+ExpiryDate = "2012-08-02 07:52:17 +0100";
+4.      判断一个文件是否过期的条件是什么\u1fff直接判断过期时间\u1fff还是用当前时间\u0cff下载完成时间进行换算需要换算\u1fff
+[Sean]:判断过期的方法是\u0cff取属性文件的ExpiryDate属性与当前时间进行对比\u0cff如果当前时间比ExpiryDate还大的话\u0cff说明已经过期\u0cff需要重新下载\u0cff下载成功之后\u0cff再替换掉原来的属性文件(.head)和缓存文件(.body)。
+5.      缓存的大小上限如何设置\u1fff在何时判断缓存是否已经到了上限\u1fff如果到了上限\u0cff释放的策略是什么\u08ff释放那些文件\u0cff释放多少\u09ff\u1fff
+[Sean]:目前提供了ClearAllCache方法来清除所有缓存文件\u0cff这个方法一般是提供给用户自己操作\u0cff类似于IE浏览器\u0cff删除所有的缓存文件操作。
+       也可以提供一个删除所有过期缓存文件的方法\u0cffClearAllExpiryCache\u0cff这个方法的调用策略\u0cff应该由系统来决定\u0cff可以在系统不忙\u0cff或者每隔几天的时候来进行。
+       删除过期缓存的方法是\u0cff遍历所有缓存属性文件\u0cff把ExpiryDate小于当前时间的属性文件(.head)和缓存文件(.body)一并删除。</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z261"></relationship>
+    </object>
+    <object type="CODE" id="z270">
+        <attribute name="content" type="string">UISwipeGestureRecognizer</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z287"></relationship>
+    </object>
+    <object type="CODE" id="z271">
+        <attribute name="content" type="string">scheduledTimerWithTimeInterval: tagrget: selector: 启动记时器</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z308"></relationship>
+    </object>
+    <object type="CODE" id="z272">
+        <attribute name="content" type="string">#if DEBUG_REQUEST_STATUS || DEBUG_THROTTLING
+	NSLog(@"Starting asynchronous request %@",self);
+#endif
+
+//ResponseStatusMessage
+//ResponseStatusCode
+//readStream
+//responseHeaders
+
+NSDictionary *responseHeaders;
+NSMutableDictionary *requestHeaders;</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z302"></relationship>
+    </object>
+    <object type="CODE" id="z273">
+        <attribute name="content" type="string">//版本信息 [NSString stringWithFormat:@"Version %@",[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]];</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z297"></relationship>
+    </object>
+    <object type="CODE" id="z274">
+        <attribute name="content" type="string">效果\u1aff
+pageCurl,pageUnCurl
+suckEffect,spewEffect
+cameraIris(来自photos应用程序)\u0cffcameraIrisHollowOpen, cameraIrisHollowClose,
+genieEffect(通常用于删除垃圾)\u0cff unGenieEffect, rippleEffect
+twist,tubey,swirl,charminUltra,zoomyIn, zoomyOut,oglFlip.
+setRemovedOnCompletion:NO 这将在动画结束时冻结它\u0cff允许翻卷的地图保持可见。
+
+实现iphone漂亮的动画效果主要有两种方法\u0cff一种是UIView层面的\u0cff一种是使用CATransition进行更低层次的控制\u0cff
+
+第一种是UIView\u0cffUIView方式可能在低层也是使用CATransition进行了封装\u0cff它只能用于一些简单的、常用的效果展现\u0cff这里写一个常用的示例代码\u0cff供大家参考。
+
+[UIView beginAnimations:@"Curl"context:nil];//动画开始
+
+[UIView setAnimationDuration:0.75];
+
+[UIView setAnimationDelegate:self];
+
+[UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:myview cache:YES];
+
+[myview removeFromSuperview];
+
+[UIView commitAnimations];
+
+
+第二种方式相对复杂一些\u0cff但如果更好的进行控制\u0cff还是使用这种方法吧\u0cff基本使用方法可以看一下如下例子\u1aff
+
+CATransition *animation = [CATransition animation];
+
+[animation setDuration:1.25f];
+
+[animation setTimingFunction:[CAMediaTimingFunction
+
+functionWithName:kCAMediaTimingFunctionEaseIn]];
+
+[animation setType:kCATransitionReveal];
+
+[animation setSubtype: kCATransitionFromBottom];
+
+[self.view.layer addAnimation:animation forKey:@"Reveal"];
+
+////////////
+
+这里使用了setType与setSubtype组合\u0cff这使用个比较保险\u0cff因为他的参数就是官方API里定义的\u0cff他们的参数说明可以参考如下\u1aff
+
+setType:可以返回四种类型\u1aff
+
+kCATransitionFade淡出
+
+kCATransitionMoveIn覆盖原图
+
+kCATransitionPush推出
+
+kCATransitionReveal底部显出来
+
+setSubtype:也可以有四种类型\u1aff
+
+kCATransitionFromRight\u1bff
+
+kCATransitionFromLeft(默认值)
+
+kCATransitionFromTop\u1bff
+
+kCATransitionFromBottom
+
+
+还有一种设置动画类型的方法\u0cff不用setSubtype\u0cff只用setType
+
+[animation setType:@"suckEffect"];
+
+
+这里的suckEffect就是效果名称\u0cff可以用的效果主要有\u1aff
+
+pageCurl   向上翻一页
+
+pageUnCurl 向下翻一页
+
+rippleEffect 滴水效果
+
+suckEffect 收缩效果\u0cff如一块布被抽走
+
+cube 立方体效果
+
+oglFlip 上下翻转效果
+
+
+最后再给出一种常用代码供大家参考。
+
+// Curl the image up or down
+
+CATransition *animation = [CATransition animation];
+
+[animation setDuration:0.35];
+
+[animation setTimingFunction:UIViewAnimationCurveEaseInOut];
+
+if (!curled){
+
+//animation.type = @"mapCurl";
+
+animation.type = @"pageCurl";
+
+animation.fillMode = kCAFillModeForwards;
+
+animation.endProgress = 0.99;
+
+} else {
+
+//animation.type = @"mapUnCurl";
+
+animation.type = @"pageUnCurl";
+
+animation.fillMode = kCAFillModeBackwards;
+
+animation.startProgress = 0.01;
+
+}
+
+[animation setRemovedOnCompletion:NO];
+
+[view exchangeSubviewAtIndex:0 withSubviewAtIndex:1];
+
+[view addAnimation:animation forKey"pageCurlAnimation"];
+
+// Disable user interaction where necessary
+
+if (!curled) {
+
+ 
+
+} else {
+
+ 
+
+}
+
+curled = !curled;</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z295"></relationship>
+    </object>
+    <object type="CODE" id="z275">
+        <attribute name="content" type="string">@"Cabinet Location*", @"Power Supply*",</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z311"></relationship>
+    </object>
+    <object type="CODE" id="z276">
+        <attribute name="content" type="string">    NSArray *paths2 = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentDirectory = [paths2 objectAtIndex:0];
+    NSString *docPath = [documentDirectory stringByAppendingPathComponent:@"TEST.plist"];
+    
+    NSMutableDictionary *dir = [[NSMutableDictionary alloc] init];
+    for (int i=0; i\u3c005; i++) {
+        NSString *skey = [NSString stringWithFormat:@"%d",i];
+        //[dir setValue:@"Test" forKey:skey];
+        [dir setObject:@"Test" forKey:skey];
+        
+    }
+    
+    NSArray *ar = [NSArray arrayWithObjects:dir,dir, nil];
+    [dir release];
+    
+    [ar writeToFile:docPath atomically:YES];</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z281"></relationship>
+    </object>
+    <object type="SNIPPET" id="z277">
+        <attribute name="synclabel" type="string">3888856B-11DB-4812-8204-75990D106DC8-879-000001A32B240D80</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/ASIHttpRequest.m</attribute>
+        <attribute name="name" type="string">ASIHttpRequest</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">ASIHttpRequest.m</attribute>
+        <attribute name="datemodified" type="date">377746347.79735499620437622070</attribute>
+        <attribute name="dateadded" type="date">377746347.79600501060485839844</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z265"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z278">
+        <attribute name="content" type="string">定制导航栏样式:self.navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
+
+模式对话框控件器
+presentModalViewController:animated:
+dismissModalViewController:animated:
+
+//导航条栏
+UIBarButtonItem *randomButton = [[UIBarButtonItem alloc] initWithTitle:@"Test" style:UIBarButtonItemStylePlain target:self action:@selector(butAction)];
+    self.navigationItem.rightBarButtonItem = randomButton;
+    [randomButton release];
+    
+    self.navigationItem.titleView = [[UILabel alloc] initWithFrame:CGRectMake(0, 4, 320, 36)];
+    self.navigationItem.title = @"other";
+    
+    NSArray *buttonNames =[NSArray arrayWithObjects:@"One",@"Two",@"Three",nil];
+    UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:buttonNames];
+    segmentedControl.momentary = YES;
+    segmentedControl.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    segmentedControl.segmentedControlStyle =UISegmentedControlStyleBar;
+    segmentedControl.frame = CGRectMake(0, 0, 400, 30);
+    [segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
+    self.navigationItem.titleView = segmentedControl;
+    [segmentedControl release];</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z309"></relationship>
+    </object>
+    <object type="CODE" id="z279">
+        <attribute name="content" type="string">@"Cabinet Location*", @"Power Supply*",</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z260"></relationship>
+    </object>
+    <object type="CODE" id="z280">
+        <attribute name="content" type="string">    //read xml
+    NSString *filePath;
+    filePath = [[NSBundle mainBundle] pathForResource:@"LOSSurvey_xml" ofType:@"xml"];
+    NSMutableString *str = [[NSMutableString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+    xml = [[CXMLDocument alloc] initWithXMLString:str options:0 error:nil];
+    //CXMLDocument 
+    //[node addChild:node];
+    
+    //xml addChild:
+    
+    
+    
+    NSData * da = [xml XMLData];
+    NSString *st = [[NSString alloc] initWithData:da encoding:NSUTF8StringEncoding];
+    return;
+    //filePath = [xml ];</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z296"></relationship>
+    </object>
+    <object type="SNIPPET" id="z281">
+        <attribute name="synclabel" type="string">71054EB7-4338-4F55-B3FD-85C02C0D77D3-879-000001A2EF0EAC3C</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/Path.m</attribute>
+        <attribute name="name" type="string">Path</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">Path.m</attribute>
+        <attribute name="datemodified" type="date">377746346.78940099477767944336</attribute>
+        <attribute name="dateadded" type="date">377746346.78792798519134521484</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z276"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z282">
+        <attribute name="content" type="string">CustomerTagInfo *tagInfo = [arSystemTagData objectAtIndex:nCurrSelete];
+    //查找system tag内是否有没有拍照的tag
+    BOOL flag = NO;
+    for (int i=0; i\u3c00tagInfo.myArSubTags.count; i++) {
+        CustomerTagInfo *subTagInfo = [tagInfo.myArSubTags objectAtIndex:i];
+        if ([subTagInfo.myPhotoUrl isEqualToString:@""]) {
+            [self setMyQueryTagId:subTagInfo.myTagId];
+            nCurTagLocWithDataAr = i;
+            //
+            flag = YES;
+            nFormTagID = TAG_LOC;
+            break;
+        }
+    }
+    
+    //增加custom tag
+    if (flag == NO) {
+        NSDateFormatter *dateFormat=[[NSDateFormatter alloc] init];
+        [ dateFormat setDateFormat:@"yyyyMMddhhmmss"];
+        [self setMySubCustomName: [dateFormat stringFromDate:[NSDate date]]];
+        [dateFormat release];
+        [self buildXMLWithCustomerTagAndPost:mySubCustomName ParentId:tagInfo.myTagId];
+        if ([self.myQueryTagId isEqualToString:@""]) {
+            //警告
+            return;
+        }
+        nFormTagID = TAG_WEB;
+    }
+    
+  //拍照
+     nCurHttpReqType = TP_HTTP_DELETE;
+    NSMutableString *url = [[NSMutableString alloc] init];
+    [url appendString: [SessionMgr instance].headUrl]; //基址
+    
+    [url appendFormat:@"/DeleteCustomerTag/?securitycode=%@\u2600tagId=%@",[SessionMgr instance].SecurityCode,myQueryTagId]; //分址
+    
+    NSString *utf8_URL = [url stringByAddingPercentEscapesUsingEncoding:CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000)];
+    [self beginHttpRequest:utf8_URL]; //http请求
+    [url release];
+    
+    //清除相关数据 
+    [self setMyQueryTagId:nil];
+    [self setMySubCustomName:nil];</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z314"></relationship>
+    </object>
+    <object type="SNIPPET" id="z283">
+        <attribute name="synclabel" type="string">4824AC6C-683A-43B8-B6C3-EBFA9163674F-879-000001A33AED35CB</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/CoreAudioTypes.txt</attribute>
+        <attribute name="name" type="string">CoreAudioTypes</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">CoreAudioTypes.txt</attribute>
+        <attribute name="datemodified" type="date">377746348.06263202428817749023</attribute>
+        <attribute name="dateadded" type="date">377746348.06085097789764404297</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z264"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z284">
+        <attribute name="synclabel" type="string">ECB27AD1-77D0-4B79-A7F5-744E013C75A8-879-000001A3316FCBF8</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/CDate.m</attribute>
+        <attribute name="name" type="string">CDate</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">CDate.m</attribute>
+        <attribute name="datemodified" type="date">377746347.90286201238632202148</attribute>
+        <attribute name="dateadded" type="date">377746347.90163797140121459961</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z285"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z285">
+        <attribute name="content" type="string">    NSDateFormatter *dateFormat=[[NSDateFormatter alloc] init];
+    [ dateFormat setDateFormat:@"yyyyMMddhhmmss"];
+    NSString *strNowTime = [dateFormat stringFromDate:[NSDate date]];
+    NSString *newMp3AudioName = [strNowTime stringByAppendingString:@".mp3"];
+    
+    
+    
+    
+    
+    
+    // 删除旧的文件
+        NSFileManager * fm = [NSFileManager defaultManager];  
+        [fm removeItemAtPath:[recordedTmpFile path] error:\u2600error];
+        
+        
+        
+           NSString *strDate = self.tfSelected.text;
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd"];
+    self.dpActivitySummary.date = [dateFormatter dateFromString:strDate];
+    
+    
+    
+  NSDateFormatter *inputFormatter = [[NSDateFormatter alloc] init];
+[inputFormatter setDateFormat:@"yyyy-MM-dd 'at' HH:mm"];
+NSDate *formatterDate = [inputFormatter dateFromString:@"1999-07-11 at 10:30:03"];
+NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
+[outputFormatter setDateFormat:@"HH:mm 'on' EEEE MMMM d"];
+NSString *newDateString = [outputFormatter stringFromDate:formatterDate];
+NSLog(@"newDateString %@", newDateString);</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z284"></relationship>
+    </object>
+    <object type="CODE" id="z286">
+        <attribute name="content" type="string">CGRectMake(); 在代码中定义矩形
+NSStringFromCGRect(someCGRect)把CGRect结构转变成格式化字符串
+CGRectFromString(aString)邮字符串表示恢复出矩形
+CGRectInset(aRect)用来创建较水或较大的矩形(中心点相同).使用正的内嵌值表示较水的矩形\u0cff使用负的内嵌值表示较大的矩形。
+CGRectIntersectsRect(rect1, rect2)可以判断矩形结构是否交叉\u0cff两个矩形对象是否重叠。
+CGRectZero是一个高宽为零\u0cff位于(0,0)的矩形常量。可用来初使化。
+
+CGPoint CGSize CGPointMake() CGSizeMake()
+与矩形相同\u0cff可以将它们与字符串进行相互转换</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z292"></relationship>
+    </object>
+    <object type="SNIPPET" id="z287">
+        <attribute name="synclabel" type="string">FC41E4AA-7A25-4BD8-BDC5-48180B571A61-879-000001A347A8597F</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/New%20Snippet.txt</attribute>
+        <attribute name="name" type="string">New Snippet</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">New Snippet.txt</attribute>
+        <attribute name="datemodified" type="date">377746348.27665501832962036133</attribute>
+        <attribute name="dateadded" type="date">377746348.27447700500488281250</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z270"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z288">
+        <attribute name="synclabel" type="string">37746AB3-E8EB-43E4-A0FB-FDBB5F464D16-879-000001A2FEEF49C0</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/UIView%20Animations.m</attribute>
+        <attribute name="name" type="string">UIView Animations</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">UIView Animations.m</attribute>
+        <attribute name="datemodified" type="date">377746347.05565500259399414062</attribute>
+        <attribute name="dateadded" type="date">377746347.05431300401687622070</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z301"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z289">
+        <attribute name="content" type="string">//组装完成
+    CXMLDocument *document = [CXMLDocument documentWithRootElement:root];
+    [xmlStr appendString:[document XMLString]];
+    NSLog(@"XMLDocument: %@", xmlStr);
+    
+    
+    NSMutableString *url = [[NSMutableString alloc] init];
+    [url appendString: [SessionMgr instance].headUrl]; //基址
+    
+    [url appendFormat:@"/AddLOSSurveyDetail/?securitycode=%@",[SessionMgr instance].SecurityCode];
+    
+    if (ASIrequest!=nil) {
+        [ASIrequest release];
+        ASIrequest = nil;
+    }
+    ASIrequest  = [[ASIHTTPRequest requestWithURL:[NSURL URLWithString:url]] retain];
+    [url release];
+    
+    [ASIrequest setRequestMethod:@"POST"];
+    [ASIrequest addRequestHeader:@"User-Agent"   value:@"ASIHTTPRequest"]; 
+    [ASIrequest addRequestHeader:@"Content-Type" value:@"application/xml"];
+    [ASIrequest setDelegate:self];
+    [ASIrequest setTimeOutSeconds:30];
+    
+    [ASIrequest appendPostData:[sPostString  dataUsingEncoding:NSUTF8StringEncoding]]; 
+    [ASIrequest startSynchronous];
+    
+    
+    
+    
+    \u3c00?xml version="1.0" encoding="utf-8"?\u3e00\u3c00Root  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"\u3e00\u3c00Result Code="0"/\u3e00\u3c00Data\u3e00\u3c00LOSSurvey\u3e00\u3c00CustomerNo\u3e00201765\u3c00/CustomerNo\u3e00\u3c00BuildingHeight\u3e0056\u3c00/BuildingHeight\u3e00\u3c00GroundElevation\u3e0058\u3c00/GroundElevation\u3e00\u3c00StandardInstall\u3e00false\u3c00/StandardInstall\u3e00\u3c00Non_StdReason\u3e00\u3c00string\u3e00Building requirements\u3c00/string\u3e00\u3c00string\u3e00Longer\u3c00/string\u3e00\u3c00string\u3e00PTP\u3c00/string\u3e00\u3c00/Non_StdReason\u3e00\u3c00Non_StdImpact\u3e00\u3c00string\u3e00Longer install\u3c00/string\u3e00\u3c00string\u3e00Multiple visits required\u3c00/string\u3e00\u3c00string\u3e00Cost\u3c00/string\u3e00\u3c00/Non_StdImpact\u3e00\u3c00RoofCondition\u3e00\u3c00string\u3e00New\u3c00/string\u3e00\u3c00string\u3e00Fair\u3c00/string\u3e00\u3c00string\u3e00Poor\u3c00/string\u3e00\u3c00/RoofCondition\u3e00\u3c00NeedRoofPenetration\u3e00false\u3c00/NeedRoofPenetration\u3e00\u3c00TypeM\u3e00true\u3c00/TypeM\u3e00\u3c00CabinetLocation\u3e00Test\u3c00/CabinetLocation\u3e00\u3c00PowerSupply\u3e00Test\u3c00/PowerSupply\u3e00\u3c00InstallInstructionsComplete\u3e00\u3c00string\u3e00Use existing roof penetration\u3c00/string\u3e00\u3c00string\u3e00Mount demark on wall beside phone pannel\u3c00/string\u3e00\u3c00string\u3e00Plug power into customer's UPS\u3c00/string\u3e00\u3c00string\u3e00Install foam under rubber mat\u3c00/string\u3e00\u3c00/InstallInstructionsComplete\u3e00\u3c00SiteVisitComplete\u3e002012-06-01T00:00:00\u3c00/SiteVisitComplete\u3e00\u3c00InstallRemarks\u3e00test\u3c00/InstallRemarks\u3e00\u3c00LOSPhotoComplete xsi:nil="true"/\u3e00\u3c00Latitude\u3e0028.217150\u3c00/Latitude\u3e00\u3c00Longitude\u3e00112.886825\u3c00/Longitude\u3e00\u3c00/LOSSurvey\u3e00\u3c00/Data\u3e00\u3c00/Root\u3e00</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z263"></relationship>
+    </object>
+    <object type="SNIPPET" id="z290">
+        <attribute name="synclabel" type="string">ACA0CFD6-A7FF-43B0-9E79-AFEA9B773371-879-000001A3413F36A6</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/IPhone%E5%BC%80%E5%8F%91%E5%8F%91%E9%80%81Http%E8%AF%B7%E6%B1%82(POST%20GET)%E7%9A%84%E6%96%B9%E6%B3%95%20%20%20%20.txt</attribute>
+        <attribute name="name" type="string">IPhone开发发送Http请求(POST GET)的方法    </attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">IPhone开发发送Http请求(POST GET)的方法    .txt</attribute>
+        <attribute name="datemodified" type="date">377746348.16969001293182373047</attribute>
+        <attribute name="dateadded" type="date">377746348.16692799329757690430</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z321"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z291">
+        <attribute name="content" type="string">break NUM               在指定的行上设置断点。 
+bt                      显 示所有的调用栈帧。该命令可用来显示函数的调用顺序。 
+clear                   删 除设置在特定源文件、特定行上的断点。其用法为\u1affclear FILENAME:NUM
+continue                继续执行正在调试的程序。该命令用在程序 由于处理信号或断点而导致停止运行 时。 
+display EXPR            每次程序停止后显示表达式的值。表达式由程序定 义的变量组成。 
+file FILE               装载指定的可执行文件进行调试。 
+help NAME               显 示指定命令的帮助信息。 
+info break              显 示当前断点清单\u0cff包括到达断点处的次数等。 
+info files              显 示被调试文件的详细信息。 
+info func               显示所有的函数名称。 
+info local              显 示当函数中的局部变量信息。 
+info prog               显示被调试程序的执行状 态。 
+info var                显示所有的全局和静态变量名称。 
+kill                    终 止正被调试的程序。 
+list                    显示源代码段。
+list                    显示源代码段。
+make                    在 不退出 gdb 的情况下运行 make 工具。
+next                    在 不单步执行进入其他函数的情况下\u0cff向前执行一行源代码。
+print EXPR              显 示表达式 EXPR 的值。
+print- object            打印一个对象
+print (int) name      打印一个类型
+print- object [artist description]   调用一个函数
+set artist = @”test”    设置变量值
+whatis                      查 看变理的数据类型
+po						这个命令不仅仅可以输出显式定义的对象\u0cff也可以输出表达式的结果。这次我们测试一下nsobject中debugDescription的方法签名\u1aff (gdb) po [NSObject instanceMethodSignatureForSelector: @selector(debugDescription)] 
+    \u3c00NSMethodSignature: 0x10010f320\u3e00 </attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z318"></relationship>
+    </object>
+    <object type="SNIPPET" id="z292">
+        <attribute name="synclabel" type="string">FD090FDF-CD25-41CD-B988-007AC193946E-879-000001A337CD3845</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/CGRect.m</attribute>
+        <attribute name="name" type="string">CGRect</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">CGRect.m</attribute>
+        <attribute name="datemodified" type="date">377746348.00988501310348510742</attribute>
+        <attribute name="dateadded" type="date">377746348.00842201709747314453</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z286"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z293">
+        <attribute name="content" type="string"> CFRunLoop 对象监控任务\u08fftask\u09ff的输入源\u0cff并在它们为处理做好准备的时候调度控制。输入源样例可能包括用户输入设备、网络链接、定期或时间延迟事件\u0cff还有异步回调。 
+
+有3类对象可以被run loop监控\u1affsources、timers、observers。
+
+当这些对象需要处理的时候\u0cff为了接收回调\u0cff首先必须通过 CFRunLoopAddSource,CFRunLoopAddTimer, or CFRunLoopAddObserver把这些对象放入run loop。 要停止接收它的回调\u0cff你也可以稍候通过CFRunLoopRemoveSource从run loop中移除某个对象。 
+
+run loop有不同的运行模式\u0cff每种模式都有其自身的对象集\u0cffrun loop监控\u0cff同时在该模式下运行。 Core Foundation定义了一种默认模式kCFRunLoopDefaultMode来持有对象\u0cff在应用或线程闲置的时候这些对象应该被监控。当一个对象被添加到不认识的模式时\u0cff额外模式自动创建。每个run loop有它自己独立的模式集。
+
+ 
+
+ 
+
+Core Foundation还定义了一个特殊的伪模式kCFRunLoopCommonModes来持有应当被“common”模式集共享的对象。 通过调用CFRunLoopAddCommonMode来添加一个模式到“common”模式集。 默认模式kCFRunLoopDefaultMode 总是common模式集中的一个成员。kCFRunLoopCommonModes 常数决不会传给CFRunLoopRunInMode。每个run loop有它自己独立的common模式集。
+
+ 
+
+每个线程恰好有一个run loop\u0cff既不可以创建\u0cff也不能销毁线程的run loop。\u0cffCore Foundation 根据需要为你创建。通过CFRunLoopGetMain 你可以获得当前线程的run loop。调用lCFRunLoopRun 来使当前线程的run loop以默认模式运行起 来\u0cff直到调用CFRunLoopStop来停止run loop。你也可以调用CFRunLoopRunInMode来使当前线程的run loop以指定模式运行起来一段时间或者直到run loop被停止。 run loop只能在请求模式至少有一个source或者timer可监控的情况下运行起来。 
+
+ 
+
+run loop可以递归运行\u0cff你可以在任何run loop 标注内部调用CFRunLoopRun 或 CFRunLoopRunInMode\u0cff还可以创建嵌套run loop\u0cff并在当前线程调用栈激活\u0cff在标注内并没有限制在那种模式可以运行。你可以创建另一个run loop\u0cff激活运行在任何可行的run loop模式\u0cff包括任何已经运行在调用堆栈中的更高的模式。
+
+ 
+
+Cocoa 和 Carbon 每个都是建立在 CFRunLoop上来实现它们自己更高级别的事件循环。当编写一个  Cocoa 或者 Carbon 应用\u0cff你可以添加你的sources、timer和observers到它们的run loop对象中。你的对象将会作为常规应用事件循环的一部分来得到监控。使用 NSRunLoop 实例方法 getCFRunLoop 来获得对应应于cocoa run loop的CFRunLoop\u0cff在carbon应用中使用 GetCFRunLoopFromEventLoop 函数.</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z320"></relationship>
+    </object>
+    <object type="SNIPPET" id="z294">
+        <attribute name="synclabel" type="string">288CA10A-61F4-4BFF-8D3D-2D59558EE8AD-879-000001A30EB299F3</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/%E8%AD%A6%E5%91%8A%E6%A1%86%20UIArltView.txt</attribute>
+        <attribute name="name" type="string">警告框 UIArltView</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">警告框 UIArltView.txt</attribute>
+        <attribute name="datemodified" type="date">377746347.32092398405075073242</attribute>
+        <attribute name="dateadded" type="date">377746347.31881397962570190430</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z316"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z295">
+        <attribute name="synclabel" type="string">7C9A5BA2-A549-4775-A93D-1927FD244930-879-000001A32E47AA74</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/CATransition.m</attribute>
+        <attribute name="name" type="string">CATransition</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">CATransition.m</attribute>
+        <attribute name="datemodified" type="date">377746347.85022497177124023438</attribute>
+        <attribute name="dateadded" type="date">377746347.84866899251937866211</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z274"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z296">
+        <attribute name="synclabel" type="string">94DCF065-79A3-4595-BC29-4964CA49AC8B-879-000001A2F23379A7</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/Snippet%202.m</attribute>
+        <attribute name="name" type="string">Snippet 2</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">Snippet 2.m</attribute>
+        <attribute name="datemodified" type="date">377746346.84284597635269165039</attribute>
+        <attribute name="dateadded" type="date">377746346.84067600965499877930</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z280"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z297">
+        <attribute name="synclabel" type="string">A61DEC44-1F42-46E6-A628-32D6B340BF5F-879-000001A2F89BC373</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/TransAmerica.txt</attribute>
+        <attribute name="name" type="string">TransAmerica</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">TransAmerica.txt</attribute>
+        <attribute name="datemodified" type="date">377746346.95026302337646484375</attribute>
+        <attribute name="dateadded" type="date">377746346.94817197322845458984</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z273"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z298">
+        <attribute name="synclabel" type="string">5E544D0E-5926-44D7-A04D-60EE899DC550-879-000001A302128C36</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/UIView.m</attribute>
+        <attribute name="name" type="string">UIView</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">UIView.m</attribute>
+        <attribute name="datemodified" type="date">377746347.10867601633071899414</attribute>
+        <attribute name="dateadded" type="date">377746347.10695302486419677734</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z299"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z299">
+        <attribute name="content" type="string">[addSubview:] 新添加子视图显示在屏幕最前面
+[subviews] 返回一组视图\u0cff由后向前排序
+[exchangeSubviewAtIndex:i withSubviewAtIndex:]对子视力排序
+[bringSubviewToFront: ] [sendSubviewToBack:] 前移或后移
+[setTag:][viewWithTag:]可以从层次结构中检索该视图</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z298"></relationship>
+    </object>
+    <object type="SNIPPET" id="z300">
+        <attribute name="synclabel" type="string">87FA0531-B119-4D07-8A0C-F7B5782A476D-879-000001A3447998EE</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/music.m</attribute>
+        <attribute name="name" type="string">music</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">music.m</attribute>
+        <attribute name="datemodified" type="date">377746348.22319102287292480469</attribute>
+        <attribute name="dateadded" type="date">377746348.22108000516891479492</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z315"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z301">
+        <attribute name="content" type="string">CGConextRef context = UIGraphicsGetCurrentContext();
+[UIView beginAnimations:nil context:context];
+[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+[UIView setAnimationDuration:1];
+[imgView setAlpha:(float)isVisible];
+[UIView commitAnimations];</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z288"></relationship>
+    </object>
+    <object type="SNIPPET" id="z302">
+        <attribute name="synclabel" type="string">254C4084-DBA3-42D9-A3A6-2C43EC3D3AC5-879-000001A327F2E1D8</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/ASI%20%20_%20DEBUG.txt</attribute>
+        <attribute name="name" type="string">ASI  _ DEBUG</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">ASI  _ DEBUG.txt</attribute>
+        <attribute name="datemodified" type="date">377746347.74467402696609497070</attribute>
+        <attribute name="dateadded" type="date">377746347.74245101213455200195</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z272"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z303">
+        <attribute name="synclabel" type="string">4930EE53-3C2A-45FD-87CE-4587CA8ED4BA-879-000001A3150B7BA5</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3.txt</attribute>
+        <attribute name="name" type="string">网络相关</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">网络相关.txt</attribute>
+        <attribute name="datemodified" type="date">377746347.42716902494430541992</attribute>
+        <attribute name="dateadded" type="date">377746347.42530298233032226562</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z306"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z304">
+        <attribute name="synclabel" type="string">32A55121-26B6-40D7-940B-EECF4018F197-879-000001A311D9CA42</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%B0%81%E8%A3%85.txt</attribute>
+        <attribute name="name" type="string">数据库封装</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">数据库封装.txt</attribute>
+        <attribute name="datemodified" type="date">377746347.37377101182937622070</attribute>
+        <attribute name="dateadded" type="date">377746347.37170898914337158203</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z317"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z305">
+        <attribute name="synclabel" type="string">2BEFAB82-B060-4EFD-B5D4-FD37627CD7B5-879-000001A2F562E12A</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/Snippet%203.txt</attribute>
+        <attribute name="name" type="string">Snippet 3</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">Snippet 3.txt</attribute>
+        <attribute name="datemodified" type="date">377746346.89688801765441894531</attribute>
+        <attribute name="dateadded" type="date">377746346.89411401748657226562</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z306">
+        <attribute name="content" type="string">一\u1aff确认网络环境3G/WIFI
+
+    1. 添加源文件和framework
+   
+    开发Web等网络应用程序的时候\u0cff需要确认网络环境\u0cff连接情况等信息。如果没有处理它们\u0cff是不会通过Apple的审(我们的)查的。
+    Apple 的 例程 Reachability 中介绍了取得/检测网络状态的方法。要在应用程序程序中使用Reachability\u0cff首先要完成如下两部\u1aff
+   
+    1.1. 添加源文件\u1aff
+    在你的程序中使用 Reachability 只须将该例程中的 Reachability.h 和 Reachability.m 拷贝到你的工程中。如下图\u1aff
+
+   
+   
+    1.2.添加framework\u1aff
+    将SystemConfiguration.framework 添加进工程。如下图\u1aff
+   
+   
+    2. 网络状态
+   
+    Reachability.h中定义了三种网络状态\u1aff
+C代码  收藏代码
+
+    typedef enum {  
+        NotReachable = 0,            //无连接  
+        ReachableViaWiFi,            //使用3G/GPRS网络  
+        ReachableViaWWAN            //使用WiFi网络  
+    } NetworkStatus;  
+
+
+   
+    因此可以这样检查网络状态\u1aff
+
+C代码  收藏代码
+
+    Reachability *r = [Reachability reachabilityWithHostName:@“www.apple.com”];  
+    switch ([r currentReachabilityStatus]) {  
+            case NotReachable:  
+                    // 没有网络连接  
+                    break;  
+            case ReachableViaWWAN:  
+                    // 使用3G网络  
+                    break;  
+            case ReachableViaWiFi:  
+                    // 使用WiFi网络  
+                    break;  
+    }  
+
+
+   
+    3.检查当前网络环境
+    程序启动时\u0cff如果想检测可用的网络环境\u0cff可以像这样
+    // 是否wifi
+C代码  收藏代码
+
+    + (BOOL) IsEnableWIFI {  
+        return ([[Reachability reachabilityForLocalWiFi] currentReachabilityStatus] != NotReachable);  
+    }  
+      
+    // 是否3G  
+    + (BOOL) IsEnable3G {  
+        return ([[Reachability reachabilityForInternetConnection] currentReachabilityStatus] != NotReachable);  
+    }  
+    例子\u1aff  
+    - (void)viewWillAppear:(BOOL)animated {      
+    if (([Reachability reachabilityForInternetConnection].currentReachabilityStatus == NotReachable) \u2600\u2600   
+            ([Reachability reachabilityForLocalWiFi].currentReachabilityStatus == NotReachable)) {  
+            self.navigationItem.hidesBackButton = YES;  
+            [self.navigationItem setLeftBarButtonItem:nil animated:NO];  
+        }  
+    }  
+
+
+    4. 链接状态的实时通知
+    网络连接状态的实时检查\u0cff通知在网络应用中也是十分必要的。接续状态发生变化时\u0cff需要及时地通知用户\u1aff
+   
+C代码  收藏代码
+
+    Reachability 1.5版本  
+    // My.AppDelegate.h  
+    #import "Reachability.h"  
+      
+    @interface MyAppDelegate : NSObject \u3c00UIApplicationDelegate\u3e00 {  
+        NetworkStatus remoteHostStatus;  
+    }  
+      
+    @property NetworkStatus remoteHostStatus;  
+      
+    @end  
+      
+    // My.AppDelegate.m  
+    #import "MyAppDelegate.h"  
+      
+    @implementation MyAppDelegate  
+    @synthesize remoteHostStatus;  
+      
+    // 更新网络状态  
+    - (void)updateStatus {  
+        self.remoteHostStatus = [[Reachability sharedReachability] remoteHostStatus];  
+    }  
+      
+    // 通知网络状态  
+    - (void)reachabilityChanged:(NSNotification *)note {  
+        [self updateStatus];  
+        if (self.remoteHostStatus == NotReachable) {  
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"AppName", nil)  
+                         message:NSLocalizedString (@"NotReachable", nil)  
+                        delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];  
+            [alert show];  
+            [alert release];  
+        }  
+    }  
+
+
+
+    // 程序启动器\u0cff启动网络监视
+ 
+C代码  收藏代码
+
+    - (void)applicationDidFinishLaunching:(UIApplication *)application {  
+        
+          // 设置网络检测的站点  
+          [[Reachability sharedReachability] setHostName:@"www.apple.com"];  
+          [[Reachability sharedReachability] setNetworkStatusNotificationsEnabled:YES];  
+          // 设置网络状态变化时的通知函数  
+          [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:)  
+                                                   name:@"kNetworkReachabilityChangedNotification" object:nil];  
+          [self updateStatus];  
+      }  
+      
+      - (void)dealloc {  
+          // 删除通知对象  
+          [[NSNotificationCenter defaultCenter] removeObserver:self];  
+          [window release];  
+          [super dealloc];  
+      }   
+        
+      Reachability 2.0版本  
+        
+      
+      // MyAppDelegate.h  
+      @class Reachability;  
+      
+          @interface MyAppDelegate : NSObject \u3c00UIApplicationDelegate\u3e00 {  
+              Reachability  *hostReach;  
+          }  
+      
+      @end  
+      
+      // MyAppDelegate.m  
+      - (void)reachabilityChanged:(NSNotification *)note {  
+          Reachability* curReach = [note object];  
+          NSParameterAssert([curReach isKindOfClass: [Reachability class]]);  
+          NetworkStatus status = [curReach currentReachabilityStatus];  
+        
+          if (status == NotReachable) {  
+              UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"AppName""  
+                                message:@"NotReachable"  
+                                delegate:nil  
+                                cancelButtonTitle:@"YES" otherButtonTitles:nil];  
+                                [alert show];  
+                                [alert release];  
+          }  
+      }  
+                                  
+      - (void)applicationDidFinishLaunching:(UIApplication *)application {  
+          // ...  
+                      
+          // 监测网络情况  
+          [[NSNotificationCenter defaultCenter] addObserver:self  
+                                selector:@selector(reachabilityChanged:)  
+                                name: kReachabilityChangedNotification  
+                                object: nil];  
+          hostReach = [[Reachability reachabilityWithHostName:@"www.google.com"] retain];  
+          hostReach startNotifer];  
+          // ...  
+      }  </attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z303"></relationship>
+    </object>
+    <object type="CODE" id="z307">
+        <attribute name="content" type="string">\u3c00?xml version="1.0" encoding="ISO-8859-1"?\u3e00
+\u3c00!-- Edited by XMLSpy® --\u3e00
+\u3c00note\u3e00
+	\u3c00to\u3e00Tove\u3c00/to\u3e00
+	\u3c00from\u3e00Jani\u3c00/from\u3e00
+	\u3c00heading\u3e00Reminder\u3c00/heading\u3e00
+	\u3c00body\u3e00Norwegian: æøå. French: êèé\u3c00/body\u3e00
+\u3c00/note\u3e00</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z259"></relationship>
+    </object>
+    <object type="SNIPPET" id="z308">
+        <attribute name="synclabel" type="string">03E68A24-BB24-4D7C-B252-F1B0EDE08030-879-000001A2EBDB388C</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/NSTimer.txt</attribute>
+        <attribute name="name" type="string">NSTimer</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">NSTimer.txt</attribute>
+        <attribute name="datemodified" type="date">377746346.73664999008178710938</attribute>
+        <attribute name="dateadded" type="date">377746346.73410302400588989258</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z271"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z309">
+        <attribute name="synclabel" type="string">35468A61-B5E4-489A-A868-BE6F2EF48221-879-000001A2FBCB3187</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/UIController.m</attribute>
+        <attribute name="name" type="string">UIController</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">UIController.m</attribute>
+        <attribute name="datemodified" type="date">377746347.00301599502563476562</attribute>
+        <attribute name="dateadded" type="date">377746347.00161999464035034180</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z278"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z310">
+        <attribute name="synclabel" type="string">0322F9F3-0BDD-4732-B2E9-5A13B2D29CE0-879-000001A321AA83D9</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/6.4.txt</attribute>
+        <attribute name="name" type="string">6.4</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">6.4.txt</attribute>
+        <attribute name="datemodified" type="date">377746347.63897198438644409180</attribute>
+        <attribute name="dateadded" type="date">377746347.63704997301101684570</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z319"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z311">
+        <attribute name="synclabel" type="string">4D2C5AC3-BB71-415D-8CB6-3AA4FD5813CB-879-000001AB8D1EA569</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/2012.5.21.txt</attribute>
+        <attribute name="name" type="string">2012.5.21</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">2012.5.21.txt</attribute>
+        <attribute name="dateremoved" type="date">377746392.99336397647857666016</attribute>
+        <attribute name="datemodified" type="date">377746392.99337399005889892578</attribute>
+        <attribute name="dateadded" type="date">377746383.80095499753952026367</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z275"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z312">
+        <attribute name="synclabel" type="string">E45AB4E3-1F73-4690-8B77-4052D8529DE2-879-000001A33E16BECD</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/DBM.m</attribute>
+        <attribute name="name" type="string">DBM</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">DBM.m</attribute>
+        <attribute name="datemodified" type="date">377746348.11553698778152465820</attribute>
+        <attribute name="dateadded" type="date">377746348.11390399932861328125</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z268"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z313">
+        <attribute name="content" type="string">UIAlertView *altvwMSG = [[UIAlertView alloc]initWithTitle:@"TeraGo" message:@"Data is being uploaded ." delegate:self cancelButtonTitle:nil otherButtonTitles:nil, nil];
+    [altvwMSG show];
+    
+    // 菊花
+    UIActivityIndicatorView * aivMSG = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    aivMSG.center = CGPointMake(altvwMSG.bounds.size.width/2, altvwMSG.bounds.size.height-50);
+    [aivMSG startAnimating];
+    [altvwMSG addSubview:aivMSG];
+    [aivMSG release];
+    
+    [self setAlertview:altvwMSG];
+    
+    [NSThread detachNewThreadSelector:@selector(BeginThread:) toTarget:self withObject:altvwMSG];
+    [altvwMSG release];
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z266"></relationship>
+    </object>
+    <object type="SNIPPET" id="z314">
+        <attribute name="synclabel" type="string">2F1CCEC5-419B-4BE4-BC10-5FF11D2818A3-879-000001A31B6090F3</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/5.29.txt</attribute>
+        <attribute name="name" type="string">5.29</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">5.29.txt</attribute>
+        <attribute name="datemodified" type="date">377746347.53343999385833740234</attribute>
+        <attribute name="dateadded" type="date">377746347.53153997659683227539</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z282"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z315">
+        <attribute name="content" type="string">- (IBAction)  start_button_pressed{  
+      
+    if(toggle)  
+    {  
+        toggle = NO;  
+        [actSpinner startAnimating];  
+        [bthStart setTitle:@"停" forState: UIControlStateNormal ];     
+        bthPlay.enabled = toggle;  
+        bthPlay.hidden = !toggle;  
+          
+        //Begin the recording session.  
+        //Error handling removed.  Please add to your own code.  
+          
+        //Setup the dictionary object with all the recording settings that this   
+        //Recording sessoin will use  
+        //Its not clear to me which of these are required and which are the bare minimum.  
+        //This is a good resource: http://www.totodotnet.net/tag/avaudiorecorder/  
+        NSMutableDictionary* recordSetting = [[NSMutableDictionary alloc] init];  
+          
+        [recordSetting setValue :[NSNumber numberWithInt:kAudioFormatAppleIMA4] forKey:AVFormatIDKey];  
+          
+        [recordSetting setValue:[NSNumber numberWithFloat:[freq.text floatValue]] forKey:AVSampleRateKey];   
+        [recordSetting setValue:[NSNumber numberWithInt: [value.text intValue]] forKey:AVNumberOfChannelsKey];  
+          
+        //Now that we have our settings we are going to instanciate an instance of our recorder instance.  
+        //Generate a temp file for use by the recording.  
+        //This sample was one I found online and seems to be a good choice for making a tmp file that  
+        //will not overwrite an existing one.  
+        //I know this is a mess of collapsed things into 1 call.  I can break it out if need be.  
+        recordedTmpFile = [NSURL fileURLWithPath:[NSTemporaryDirectory() stringByAppendingPathComponent: [NSString stringWithFormat: @"%.0f.%@", [NSDate timeIntervalSinceReferenceDate] * 1000.0, @"caf"]]];  
+        NSLog(@"Using File called: %@",recordedTmpFile);  
+        //Setup the recorder to use this file and record to it.  
+        recorder = [[ AVAudioRecorder alloc] initWithURL:recordedTmpFile settings:recordSetting error:\u2600error];  
+        //Use the recorder to start the recording.  
+        //Im not sure why we set the delegate to self yet.    
+        //Found this in antother example, but Im fuzzy on this still.  
+        [recorder setDelegate:self];  
+        //We call this to start the recording process and initialize   
+        //the subsstems so that when we actually say "record" it starts right away.  
+        [recorder prepareToRecord];  
+        //Start the actual Recording  
+        [recorder record];  
+        //There is an optional method for doing the recording for a limited time see   
+        //[recorder recordForDuration:(NSTimeInterval) 10]  
+          
+    }  
+    else  
+    {  
+        toggle = YES;  
+        [actSpinner stopAnimating];  
+        [bthStart setTitle:@"开始录音" forState:UIControlStateNormal ];  
+        bthPlay.enabled = toggle;  
+        bthPlay.hidden = !toggle;  
+          
+        NSLog(@"Using File called: %@",recordedTmpFile);  
+        //Stop the recorder.  
+        [recorder stop];  
+    }  
+}  </attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z300"></relationship>
+    </object>
+    <object type="CODE" id="z316">
+        <attribute name="content" type="string">UIArltView:
+setNumberOfRows:构造单行按钮\u0cff提供所请求的行数.
+setDimsBackGround:NO禁止背景变暗淡
+dismissWithClickedButtonIndex:animated方法\u0cff消失无按钮窗口
+
+请求用户文本输入\u1aff
+addTextFieldWithValue: label:
+文本获取\u1aff
+textFieldAtIndex:
+
+[[[modealview textFieldAtIndex:0] text] cStringUsingEncoding:NSUTF8StringEncodeing]
+
+[alert addTextFieldWithValue:@"user" label:@"Enter Name"];
+UITextField *tf = [alert textFieldAtIndex:0];
+tf.clearButtonMode = UITextFieldViewModeWhileEditiing;
+tf.keyboardType = UIKeyboardTypeAlphabet;
+tf.keyboardAppearance = UIKeyboardAppearanceAlert;
+tf.autocapitalizationType = UITextAutocapitalizationTypeWords;
+tf.autocorrectionType = UITextAutocorrectionTypedNo;
+
+UIActionSheet:显示方式
+showInView
+showFromToolBar: 
+showFromTabBar
+
+UIActivityIndicatorView 旋转圆
+UIProgressView 进度条
+UIPRogressHUD  状态消息
+
+@interface UIProgressHUD : NSObject
+-(void) show: (B00L) yesOrNo;
+-(UIProgressHUD*) initWithWindow:(UIView*) window;
+-(void) setText:(NSString*) theText;
+
+-(void) killHUD:(id) aHUD
+{
+	[aHUD show:NO];
+	[aHUD release];
+}
+
+-(void) presentSheet
+{
+	id HUD = [UIPRogressHUD alloc] initWithWindow:[contentView superview]];
+	[HUD setText:@"downloading file"];
+	[HUD show:YES];
+}
+
+-(void) threadMain
+{
+//让它在其自已的线程中运行\u0cff以便UI更新不会阻止。
+	[NSTHread detatchThreadSelector:@selecctor(presentSheet:) 
+	toTarget:self
+	withObject:]
+}
+
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z294"></relationship>
+    </object>
+    <object type="CODE" id="z317">
+        <attribute name="content" type="string">#import \u3c00Foundation/Foundation.h\u3e00 
+#import "sqlite3.h"  @interface DatabaseOperation : NSObject {   
+    sqlite3 *m_sql;      NSString *m_dbName;   
+}  @property(nonatomic)sqlite3*    m_sql;   
+@property(nonatomic,retain)NSString*    m_dbName;  -(id)initWithDbName:(NSString*)dbname;   
+-(BOOL)openOrCreateDatabase:(NSString*)DbName;  -(BOOL)createTable:(NSString*)sqlCreateTable;   
+-(void)closeDatabase;  -(BOOL)InsertTable:(NSString*)sqlInsert;   
+-(BOOL)UpdataTable:(NSString*)sqlUpdata;  -(NSArray*)querryTable:(NSString*)sqlQuerry;   
+-(NSArray*)querryTableByCallBack:(NSString*)sqlQuerry;  @end   
+M文件   
+#import "DatabaseOperation.h"   
+@implementation DatabaseOperation  @synthesize m_sql;   
+@synthesize m_dbName;  - (id) initWithDbName:(NSString*)dbname   
+{   self = [super init];   
+    if (self != nil) {         if ([self openOrCreateDatabase:dbname]) {   
+            [self closeDatabase];          }   
+    }      return self;   
+}  - (id) init   
+{      NSAssert(0,@"Never Use this.Please Call Use initWithDbName:(NSString*)");   
+    return nil;  }   
+- (void) dealloc  {   
+self.m_sql = nil;   self.m_dbName =nil;   
+    [super dealloc];  }   
+//创建数据库   
+-(BOOL)openOrCreateDatabase:(NSString*)dbName  {   
+self.m_dbName = dbName;      NSArray *path =NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);   
+    NSString *documentsDirectory = [path objectAtIndex:0];      if(sqlite3_open([[documentsDirectorystringByAppendingPathComponent:dbName] UTF8String],\u2600m_sql) !=SQLITE_OK)   
+    {          NSLog(@"创建数据库失败");   
+        return    NO;      }   
+    return YES;  }   
+//创建表   
+-(BOOL)createTable:(NSString*)sqlCreateTable   
+{      if (![selfopenOrCreateDatabase:self.m_dbName]) {   
+        return NO;      }   
+    char *errorMsg;      if (sqlite3_exec (self.m_sql, [sqlCreateTable UTF8String],NULL, NULL, \u2600errorMsg) != SQLITE_OK)   
+    {          NSLog(@"创建数据表失败:%s",errorMsg);   
+        return NO;      }   
+    [selfcloseDatabase];      return YES;   
+}  //关闭数据库   
+-(void)closeDatabase  {   
+    sqlite3_close(self.m_sql);   }   
+//insert   
+-(BOOL)InsertTable:(NSString*)sqlInsert   
+{      if (![selfopenOrCreateDatabase:self.m_dbName]) {   
+        return NO;      }   
+   char* errorMsg = NULL;      if(sqlite3_exec(self.m_sql, [sqlInsertUTF8String],0, NULL, \u2600errorMsg) ==SQLITE_OK)   
+{  [selfcloseDatabase];  returnYES;}   
+    else {          printf("更新表失败:%s",errorMsg);   
+        [selfcloseDatabase];          return NO;   
+    }      return YES;   
+}  //updata   
+-(BOOL)UpdataTable:(NSString*)sqlUpdata{   
+if (![selfopenOrCreateDatabase:self.m_dbName]) {   return NO;   
+    }  char *errorMsg;   
+if (sqlite3_exec (self.m_sql, [sqlUpdata UTF8String],0, NULL, \u2600errorMsg) !=SQLITE_OK)  {   
+[selfcloseDatabase];  returnYES;   
+}else {  returnNO;   
+}   
+return YES;  }   
+//select  -(NSArray*)querryTable:(NSString*)sqlQuerry   
+{      if (![selfopenOrCreateDatabase:self.m_dbName]) {   
+        return nil;      }   
+    int row = 0;      int column = 0;   
+    char*    errorMsg = NULL;      char**    dbResult = NULL;   
+    NSMutableArray*    array = [[NSMutableArrayalloc] init];      if(sqlite3_get_table(m_sql, [sqlQuerryUTF8String], \u2600dbResult, \u2600row,\u2600column,\u2600errorMsg ) == SQLITE_OK)   
+    {         if (0 == row) {   
+            [self closeDatabase];              return nil;   
+        }          int index = column;   
+        for(int i =0; i \u3c00 row ; i++ ) {                NSMutableDictionary*    dic = [[NSMutableDictionaryalloc] init];   
+            for(int j =0 ; j \u3c00 column; j++ ) {                  if (dbResult[index]) {   
+                    NSString*    value = [[NSStringalloc] initWithUTF8String:dbResult[index]];                      NSString*    key = [[NSStringalloc] initWithUTF8String:dbResult[j]];   
+                    [dic setObject:value forKey:key];                      [value release];   
+                    [key release];                  }   
+                index ++;              }   
+            [array addObject:dic];              [dic release];   
+        }      }else {   
+        printf("%s",errorMsg);          [selfcloseDatabase];   
+        return nil;      }   
+    [selfcloseDatabase];      return [array autorelease];   
+}  //select   
+int processData(void* arrayResult,int columnCount,char** columnValue,char** columnName)   
+{      int i;   
+    NSMutableDictionary* dic = [[NSMutableDictionaryalloc] init];      for( i = 0 ; i \u3c00 columnCount; i ++ )   
+    {          if (columnValue) {   
+            NSString* key = [[NSStringalloc] initWithUTF8String:columnName];              NSString* value = [[NSStringalloc] initWithUTF8String:columnValue];   
+            [dic setObject:value forKey:key];          }   
+    }       [(NSMutableArray*)arrayResult addObject:dic];   
+    [dic release];      return 0;   
+}   
+//select   
+-(NSArray*)querryTableByCallBack:(NSString*)sqlQuerry  {   
+    if (![selfopenOrCreateDatabase:self.m_dbName]) {          return nil;   
+    }      char*    errorMsg = NULL;   
+    NSMutableArray* arrayResult = [[NSMutableArrayalloc] init];      if (sqlite3_exec(self.m_sql,[sqlQuerryUTF8String],processData,(void*)arrayResult,\u2600errorMsg) !=SQLITE_OK) {   
+        printf("查询出错:%s",errorMsg);      }   
+    [selfcloseDatabase];      return [arrayResult autorelease];   
+}  @end 
+[/pre] </attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z304"></relationship>
+    </object>
+    <object type="SNIPPET" id="z318">
+        <attribute name="synclabel" type="string">EB7E5D6C-B65D-487D-BB0E-F5921EA05A8E-879-000001A3053C0104</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/XCode%20%20GDB.m</attribute>
+        <attribute name="name" type="string">XCode  GDB</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">XCode  GDB.m</attribute>
+        <attribute name="datemodified" type="date">377746347.16133701801300048828</attribute>
+        <attribute name="dateadded" type="date">377746347.16004598140716552734</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z291"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z319">
+        <attribute name="content" type="string">    //[LOSSurveyLandingPage UpLoadLOSDetaileInfoToSVR:strCustomerNo UserID:[Session] AllCount:\u3c00#(int *)#\u3e00 Surc:\u3c00#(int *)#\u3e00 ArFalseArray:\u3c00#(NSMutableArray *)#\u3e00];
+    int allCount =0;
+    int surcCount=0;
+    NSMutableArray *falseAr = [[NSMutableArray alloc] init];
+    
+    [LOSSurveyLandingPage UpLoadLOSDetaileInfoToSVR:strCustomerNo UserID:[SessionMgr GetUsername] AllCount:\u2600allCount Surc:\u2600surcCount ArFalseArray:falseAr];
+    NSLog(@"allCount:%d surcCount:%d falseCount:%d",allCount, surcCount, falseAr.count);
+    return;</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z310"></relationship>
+    </object>
+    <object type="SNIPPET" id="z320">
+        <attribute name="synclabel" type="string">CFDFA8A0-DFE6-4337-B2B2-ADC6290F3739-879-000001A334933D33</attribute>
+        <attribute name="relatedurl" type="string">file://localhost/Users/clochase/Documents/CFRunLoop.txt</attribute>
+        <attribute name="name" type="string">CFRunLoop</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="exportfilename" type="string">CFRunLoop.txt</attribute>
+        <attribute name="datemodified" type="date">377746347.95705997943878173828</attribute>
+        <attribute name="dateadded" type="date">377746347.95429199934005737305</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z293"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z321">
+        <attribute name="content" type="string">IPhone开发]发送Http请求(POST GET)的方法    
+
+
+本帖属于CocoaChina会员发表\u0cff转帖请写明来源和帖子地址
+
+1.Get方法
+
+1.1 使用NSMutableURLRequest
+
+view plaincopy to clipboardprint?
+NSURL* url = [NSURL URLWithString:@"http://aminby.net"];  
+NSMutableURLRequest* request = [NSMutableURLRequest new];  
+[request setURL:url];  
+[request setHTTPMethod:@"GET"];  
+NSHTTPURLRequest* resp*****e;  
+NSData* data = [NSURLConnection sendSynchronousRequest:request  
+              returningResp*****e:\u2600resp*****e error:nil];  
+[NSString* strRet = [[NSString alloc] initWithData:data encoding:NSUTF8String];  
+NSLog(strRet);  
+[strRet release];  
+1.2 使用NSString
+
+view plaincopy to clipboardprint?
+[NSString stringWithContentsOfURL:(NSURL *)url  
+            encoding:(NSStringEncoding)enc error:(NSError **)error];  
+// 或者  
+[NSString stringWithContentsOfURL:(NSURL *)url];  
+1.3 使用NSData
+
+view plaincopy to clipboardprint?
+// opti*****有两个枚举,NSMappedRead这个不懂, NSUncachedRead是不缓存  
+[NSData dataWithContentsOfURL:(NSURL *)url  
+        opti*****:(NSUInteger)readOpti*****Mask  
+        error:(NSError **)errorPtr]  
+//  或者  
+[NSData dataWithContentsOfURL:(NSURL *)url];  
+1.2和1.3的方法是缺点是没办法知道resp*****e的status,一般是返回200-299之间的数值代表请求成功.我们可以依照这个code来做数据处理, 如果对地址存在很有把握,就可以使用后两种简单的GET方法.
+
+今天查了一下手册,发现NSArray NSDictionary 也有xxxxWithContentsOfURL的方法, 这两个我还没用过, 应该是跟NSData和NSString一样,但具体怎么用我还不清楚.
+
+2.Post方法
+
+2.1 使用NSMutableURLRequest
+
+view plaincopy to clipboardprint?
+NSURL* url = [NSURL URLWithString:@"http://aminby.net"];  
+NSMutableURLRequest*  request = [NSMutableURLRequest new];  
+[request setURL:url];  
+[request  setHTTPMethod:@"GET"];  
+[request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];  
+[request setHTTPBody:@"some param"];  
+NSHTTPURLRequest* resp*****e;  
+NSData* data =  [NSURLConnection sendSynchronousRequest:request  
+         returningResp*****e:\u2600resp*****e error:nil];  
+[NSString* strRet =  [[NSString alloc] initWithData:data encoding:NSUTF8String];  
+NSLog(strRet);  
+[strRet  release];  </attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z290"></relationship>
     </object>
 </database>
