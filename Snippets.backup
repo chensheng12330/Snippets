@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>40378CFC-90EB-4498-B017-9E86CC2AE28D</UUID>
-        <nextObjectID>322</nextObjectID>
+        <nextObjectID>324</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -550,7 +550,7 @@ uint64_t delta_ns = (delta.tv_sec * NSEC_PER_SEC + delta.tv_usec * NSEC_PER_USEC
     </object>
     <object type="INDEXMANAGER" id="z127">
         <attribute name="synclabel" type="string">9D02B2A5-F0EC-4A94-A782-11B3C8C95B4F-82451-0001128FFDE5409E</attribute>
-        <attribute name="lastindex" type="int64">36</attribute>
+        <attribute name="lastindex" type="int64">37</attribute>
     </object>
     <object type="LICENSE" id="z128">
         <attribute name="label" type="string">gplv3</attribute>
@@ -612,7 +612,7 @@ uint64_t delta_ns = (delta.tv_sec * NSEC_PER_SEC + delta.tv_usec * NSEC_PER_USEC
         <attribute name="isexpanded" type="bool">1</attribute>
         <attribute name="index" type="int64">1</attribute>
         <relationship name="parent" type="1/1" destination="SIDEBARITEM"></relationship>
-        <relationship name="children" type="0/0" destination="SIDEBARITEM" idrefs="z126 z254 z253"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM" idrefs="z254 z126 z253"></relationship>
     </object>
     <object type="SMARTGROUP" id="z138">
         <attribute name="predicate" type="string">dateRemoved != nil</attribute>
@@ -1196,7 +1196,7 @@ AUTHENTICATION_BACKENDS = (
         <attribute name="ishidden" type="bool">0</attribute>
         <attribute name="isdefault" type="bool">1</attribute>
         <attribute name="index" type="int64">2</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z277 z300 z322 z296 z298 z182 z318 z292 z267 z232 z181 z281 z295 z183 z168 z252 z312 z172 z284 z180 z288 z309 z257"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z292 z183 z277 z296 z309 z232 z295 z288 z180 z284 z300 z318 z281 z322 z257 z182 z172 z312 z267 z168 z298 z181 z323 z252"></relationship>
     </object>
     <object type="SYNTAXHIGHLIGHT" id="z188">
         <attribute name="synclabel" type="string">html</attribute>
@@ -1680,18 +1680,20 @@ sherwin.chen</attribute>
         <attribute name="index" type="int64">1</attribute>
         <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z137"></relationship>
         <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z257 z256"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z323 z256 z257"></relationship>
     </object>
     <object type="CODE" id="z255">
         <attribute name="content" type="string">path:  Users/admin/Library/Application Support/Snippets/
-github</attribute>
+github
+
+/Users/clochase/Library/Application Support/Snippets</attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z256"></relationship>
     </object>
     <object type="SNIPPET" id="z256">
         <attribute name="synclabel" type="string">04D97A30-099C-4240-8075-E023B984B2DC-442-0000070C4C08142B</attribute>
         <attribute name="name" type="string">Snippet path</attribute>
         <attribute name="islocked" type="bool">0</attribute>
-        <attribute name="datemodified" type="date">377699519.85522699356079101562</attribute>
+        <attribute name="datemodified" type="date">377751295.30520498752593994141</attribute>
         <attribute name="dateadded" type="date">377699449.89389699697494506836</attribute>
         <attribute name="copieswithlicense" type="bool">0</attribute>
         <relationship name="code" type="1/1" destination="CODE" idrefs="z255"></relationship>
@@ -3411,5 +3413,25 @@ NSLog(strRet);
         <relationship name="groups" type="0/0" destination="GROUP"></relationship>
         <relationship name="shares" type="0/0" destination="SHARE"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z323">
+        <attribute name="synclabel" type="string">251C09CF-A5D1-48F1-9C94-1F064096D2C0-147-00000188C7AB2332</attribute>
+        <attribute name="name" type="string">macbook 配件</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="datemodified" type="date">377772839.14427101612091064453</attribute>
+        <attribute name="dateadded" type="date">377772726.05842798948287963867</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z324"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP" idrefs="z254"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z324">
+        <attribute name="content" type="string">http://shop57113964.taobao.com/search.htm?spm=a1z10.3.0.127.Jj0e2U\u2600search=y\u2600scid=94239076\u2600viewType=grid\u2600orderType=_coefp\u2600pageNum=16#anchor  小配件
+http://shop100435005.taobao.com/search.htm?spm=a1z10.3.0.147.MR3Py4\u2600search=y\u2600scid=624335274\u2600viewType=grid\u2600orderType=_hotsell\u2600pageNum=1#anchor
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z323"></relationship>
     </object>
 </database>
