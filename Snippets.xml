@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>40378CFC-90EB-4498-B017-9E86CC2AE28D</UUID>
-        <nextObjectID>324</nextObjectID>
+        <nextObjectID>326</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -550,7 +550,7 @@ uint64_t delta_ns = (delta.tv_sec * NSEC_PER_SEC + delta.tv_usec * NSEC_PER_USEC
     </object>
     <object type="INDEXMANAGER" id="z127">
         <attribute name="synclabel" type="string">9D02B2A5-F0EC-4A94-A782-11B3C8C95B4F-82451-0001128FFDE5409E</attribute>
-        <attribute name="lastindex" type="int64">37</attribute>
+        <attribute name="lastindex" type="int64">38</attribute>
     </object>
     <object type="LICENSE" id="z128">
         <attribute name="label" type="string">gplv3</attribute>
@@ -588,7 +588,7 @@ uint64_t delta_ns = (delta.tv_sec * NSEC_PER_SEC + delta.tv_usec * NSEC_PER_USEC
         <attribute name="isexpanded" type="bool">1</attribute>
         <attribute name="index" type="int64">2</attribute>
         <relationship name="parent" type="1/1" destination="SIDEBARITEM"></relationship>
-        <relationship name="children" type="0/0" destination="SIDEBARITEM" idrefs="z147 z144 z145"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM" idrefs="z144 z145 z147"></relationship>
     </object>
     <object type="SIDEBARITEM" id="z135">
         <attribute name="synclabel" type="string">SASpacerSidebarItemLabel</attribute>
@@ -612,7 +612,7 @@ uint64_t delta_ns = (delta.tv_sec * NSEC_PER_SEC + delta.tv_usec * NSEC_PER_USEC
         <attribute name="isexpanded" type="bool">1</attribute>
         <attribute name="index" type="int64">1</attribute>
         <relationship name="parent" type="1/1" destination="SIDEBARITEM"></relationship>
-        <relationship name="children" type="0/0" destination="SIDEBARITEM" idrefs="z254 z126 z253"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM" idrefs="z254 z253 z126"></relationship>
     </object>
     <object type="SMARTGROUP" id="z138">
         <attribute name="predicate" type="string">dateRemoved != nil</attribute>
@@ -1196,7 +1196,7 @@ AUTHENTICATION_BACKENDS = (
         <attribute name="ishidden" type="bool">0</attribute>
         <attribute name="isdefault" type="bool">1</attribute>
         <attribute name="index" type="int64">2</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z292 z183 z277 z296 z309 z232 z295 z288 z180 z284 z300 z318 z281 z322 z257 z182 z172 z312 z267 z168 z298 z181 z323 z252"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z300 z232 z318 z181 z309 z284 z257 z298 z267 z277 z323 z281 z168 z296 z295 z312 z292 z180 z172 z183 z322 z182 z252 z288"></relationship>
     </object>
     <object type="SYNTAXHIGHLIGHT" id="z188">
         <attribute name="synclabel" type="string">html</attribute>
@@ -1324,7 +1324,7 @@ AUTHENTICATION_BACKENDS = (
         <attribute name="ishidden" type="bool">1</attribute>
         <attribute name="isdefault" type="bool">0</attribute>
         <attribute name="index" type="int64">1</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z179 z178 z171 z166"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z166 z178 z171 z325 z179"></relationship>
     </object>
     <object type="SYNTAXHIGHLIGHT" id="z204">
         <attribute name="synclabel" type="string">python</attribute>
@@ -1671,7 +1671,7 @@ sherwin.chen</attribute>
         <attribute name="index" type="int64">2</attribute>
         <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z137"></relationship>
         <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z178 z179 z166 z171"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z166 z178 z171 z325 z179"></relationship>
     </object>
     <object type="GROUP" id="z254">
         <attribute name="synclabel" type="string">85598F56-B304-42AD-95A3-F6596983899E-442-000006E36985805C</attribute>
@@ -3433,5 +3433,43 @@ NSLog(strRet);
 http://shop100435005.taobao.com/search.htm?spm=a1z10.3.0.147.MR3Py4\u2600search=y\u2600scid=624335274\u2600viewType=grid\u2600orderType=_hotsell\u2600pageNum=1#anchor
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z323"></relationship>
+    </object>
+    <object type="SNIPPET" id="z325">
+        <attribute name="synclabel" type="string">D07845A7-BB2F-4E6D-B1CC-40A8310AAE88-3094-0000105DCD4EA665</attribute>
+        <attribute name="name" type="string">commit bash</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="datemodified" type="date">377850286.42474102973937988281</attribute>
+        <attribute name="dateadded" type="date">377850275.52766501903533935547</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z326"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z203"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP" idrefs="z253"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z326">
+        <attribute name="content" type="string">#! /bin/sh
+if [ -n "$1" ]; then echo "";
+else echo "please commit log....."; exit 1
+fi
+
+#proceing
+
+echo "\\n********add all files*******"
+git add *
+echo "\\n********add finishing*******"
+
+echo "\\n********commit all files*******"
+git commit -m "$1"
+echo "\\n********commit finishing*******"
+
+echo "\\n********push all files*******"
+git push -u origin master
+echo "\\n********push finishing*******\\n"
+
+
+git log -n 1</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z325"></relationship>
     </object>
 </database>
